@@ -12,7 +12,7 @@ public class SpringMongoConfig1 {
 
     public @Bean
     MongoDbFactory mongoDbFactory() throws Exception {
-        return new SimpleMongoDbFactory(new MongoClient(), "yourdb");
+        return new SimpleMongoDbFactory(new MongoClient(), "VehicleRental");
     }
 
     public @Bean
